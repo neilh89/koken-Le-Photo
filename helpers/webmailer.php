@@ -103,8 +103,8 @@ if (isset($_SESSION['captcha']) && isset($_POST['operation'])) {
 
             if ($resultArray['status'] == 'success') {
                 // if no error was found in the form data - send the mail;
-                $emailTo = "recipient@domain.tld";
-                $subject = '[domain.tld] message from ' . $name;
+                $emailTo = "richard@lephoto.se";
+                $subject = '[LePhoto.se] message from ' . $name;
                 // body format can be changed to taste
                 $body = "Name : $name \nE-Mail : $email \n\nMessage :\n$message";
                 $headers = 'From: ' . $name . ' <' . $email . '>' . "\n" . 'Reply-To: ' . $email;
@@ -122,7 +122,7 @@ if (isset($_SESSION['captcha']) && isset($_POST['operation'])) {
             $_SESSION['notification'] = $notification;
             unset($_SESSION['captcha']);
             // redirect back to the form - important to show validation result in template (AJAX)
-            header('Location: http://domain.tld/contact/#');
+            header('Location: http://koken.lephoto.se/contact/#');
             break;
         }
         default:
