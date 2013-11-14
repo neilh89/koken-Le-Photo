@@ -228,6 +228,26 @@ div#grid.col-6 div.column { width:16.6%; }
 div#grid.col-7 div.column { width:14.2%; }
 div#grid.col-8 div.column { width:12.5%; }
 
+/* CONTACT
+----------------------------------------------- */
+
+p#headline.error {
+    color : #f00;
+}
+p#headline.success {
+    color : #0f0;
+}
+#submitButton {
+	font-​size : 0.95 em;
+	background-​color : #000;
+	color : #fff;
+	border : 0;
+	height : 2 em;
+}
+#submitButton :hover {
+	background-​color : #666;
+}
+
 /* CONTENT
 ----------------------------------------------- */
 

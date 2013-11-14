@@ -1,0 +1,5 @@
+<koken:include file="inc/header.html" />
+
+<koken:include file="inc/contact.php" />
+
+<koken:include file="inc/footer.html" />
