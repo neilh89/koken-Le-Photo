@@ -17,7 +17,10 @@ header.main {
 	z-index:100;
 }
 
-div#container { height:100%; }
+div#container { 
+	height:100%;
+	padding:0 !important;
+}
 
 .k-note-pulse { text-align:center; }
 
