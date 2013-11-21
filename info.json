@@ -1,7 +1,7 @@
 {
 	"name": "Le'Photo",
 	"version": "0.1",
-	"description": "Le'Photo is an adaptation of Regale (v1.3.11). Regale is a bold, assured theme that fluidly scales content across the entire browser window for larger than life photos. Includes a basic header and footer navigation, social media links, plus a configurable grid layout that allows you to control spacing and column count. Single photos presented on the content page are scaled as large as they can go for maximum impact. Theme preview photos by Daniele Zedda.",
+	"description": "Le'Photo is an adaptation of Regale (v1.3.12). Regale is a bold, assured theme that fluidly scales content across the entire browser window for larger than life photos. Includes a basic header and footer navigation, social media links, plus a configurable grid layout that allows you to control spacing and column count. Single photos presented on the content page are scaled as large as they can go for maximum impact. Theme preview photos by Daniele Zedda.",
 	"demo": "http://demo.koken.me/#regale",
 	"documentation": "http://help.koken.me/customer/portal/articles/1227391-regale-documentation",
 	"author": {
